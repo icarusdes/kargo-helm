@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/icarusdes/guestbook
+  repository: us-east4-docker.pkg.dev/sap-ems-gap-sandbox/ghcr/icarusdes/guestbook
   pullPolicy: IfNotPresent
   tag: latest
 

@@ -6,7 +6,7 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: ghcr.io/icarusdes/guestbook
+      repoURL: us-east4-docker.pkg.dev/sap-ems-gap-sandbox/ghcr/icarusdes/guestbook
       imageSelectionStrategy: SemVer
 
 ---
