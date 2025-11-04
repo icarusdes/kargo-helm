@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: kargo-helm-prod-lightweight
+  namespace: argocd
+spec:
+  destination:
+    name: gap-kargo-lite
+    namespace: kargo-helm-prod-lightweight
+  project: kargo-helm
+  source:
+    helm:
+      valueFiles:
+        - /env/prod-lightweight/values.yaml
+        - /env/prod-lightweight/feature-flags.yaml
+    path: charts/guestbook
+    repoURL: https://github.com/icarusdes/kargo-helm.git

@@ -8,7 +8,7 @@ spec:
   - name: image
     value: us-east4-docker.pkg.dev/sap-ems-gap-sandbox/ghcr/icarusdes/guestbook
   - name: repoURL
-    value: https://github.com/cesarnog/kargo-helm.git
+    value: https://github.com/icarusdes/kargo-helm.git
   - name: branch
     value: main
   - name: envPath
