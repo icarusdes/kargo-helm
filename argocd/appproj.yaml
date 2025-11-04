@@ -15,4 +15,4 @@ spec:
     - group: "*"
       kind: "*"
   sourceRepos:
-    - https://github.com/icarusdes/kargo-helm.git
+    - https://github.com/cesarnog/kargo-helm.git
